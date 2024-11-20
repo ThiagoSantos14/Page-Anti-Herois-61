@@ -1,0 +1,292 @@
+@font-face {
+    src: url(font/PressStart2P-Regular.ttf);
+    font-family: 'pressStart';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'pressStart';
+    color: white;
+}
+
+html body {
+    width: 100%;
+    height: 100vh;
+    background: url(imagens/background.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerMaster {
+    width: 90%;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    backdrop-filter: blur(10px);
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logotipo1 {
+    mix-blend-mode: multiply;
+}
+
+.logotipo2 {
+    mix-blend-mode: multiply;
+}
+
+
+
+/*Display on dos cards*/
+.displayContainerOn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/*Display off dos cards*/
+.displayContainerOff {
+    display: none;
+}
+
+/*Card 1*/
+.container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.firstText1 {
+    width: 30%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 30px;
+}
+
+.firstText1 h1 {
+    font-size: 30px;
+}
+
+.containerPlayer1 {
+    margin-top: 5vh;
+}
+
+.btnCapuz1 {
+    cursor: pointer;
+}
+
+.btnCoringa1 {
+    cursor: pointer;
+}
+
+.btnSpawn1 {
+    cursor: pointer;
+}
+
+.pictureCenter1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 700px;
+}
+
+.containerDescricao1 {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 20px;
+}
+
+
+
+/*Card 2*/
+.container2 {
+    display: none;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.firstText2 {
+    width: 25%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 30px;
+}
+
+.firstText2 h1 {
+    font-size: 30px;
+}
+
+.btnCapuz2 {
+    cursor: pointer;
+}
+
+.btnCoringa2 {
+    cursor: pointer;
+}
+
+.btnSpawn2 {
+    cursor: pointer;
+}
+
+.pictureCenter2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 700px;
+}
+
+.containerDescricao2 {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 20px;
+}
+
+
+
+/*Card 3*/
+.container3 {
+    display: none;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.firstText3 {
+    width: 25%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 20px;
+}
+
+.firstText3 h1 {
+    font-size: 30px;
+}
+
+.containerPlayer3 {
+    margin-top: 5vh;
+}
+
+.btnCapuz3 {
+    cursor: pointer;
+}
+
+.btnCoringa3 {
+    cursor: pointer;
+}
+
+.btnSpawn3 {
+    cursor: pointer;
+}
+
+.pictureCenter3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 700px;
+}
+
+.containerDescricao3 {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 20px;
+}
+
+@media (max-width: 1280px) {
+    /*Card 1*/
+    body {
+        height: 100vh;
+    }
+
+    .container1 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .firstText1 {
+        width: 40%;
+        font-size: 10px;
+    }
+
+    .firstText1 h1 {
+        margin-top: 5vh;
+        font-size: 20px;
+    }
+
+    .pictureCenter1 {
+        width: 400px;
+    }
+
+    .containerDescricao1 {
+        font-size: 10px;
+    }
+
+    .container2 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .firstText2 {
+        width: 40%;
+        font-size: 10px;
+    }
+
+    .firstText2 h1 {
+        margin-top: 10vh;
+        font-size: 20px;
+    }
+
+    .pictureCenter2 {
+        width: 400px;
+    }
+
+    .containerDescricao2 {
+        font-size: 10px;
+    }
+
+    .container3 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .firstText3 {
+        width: 40%;
+        font-size: 10px;
+    }
+
+    .firstText3 h1 {
+        margin-top: 5vh;
+        font-size: 20px;
+    }
+
+    .pictureCenter3 {
+        width: 400px;
+    }
+
+    .containerDescricao3 {
+        font-size: 10px;
+    }
+}
